@@ -2,14 +2,19 @@
 
 body {
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Poppins", sans-serif;
 }
 
 h1 {
     font-size: 2.5rem;
-    font-weight: 900;
-    padding: 70px 0px 50px;
+    font-weight: 800;
+    padding: 70px 0px 30px;
 }
+
+.container-fluid {
+    padding: 3% 25% 5%;
+}
+
 
 .blue-background {
     background-color: #112B3C;
@@ -20,15 +25,56 @@ h1 {
     background-color: #EFEFEF;
 }
 
-.container-fluid {
-    padding: 3% 25% 5%;
+/* -- Nav Bar -- */
+
+.navbar-container{
+    padding: 0 4rem 0;
+    border-bottom: 1px solid;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-logo{
+    width: 5rem;
+
 }
 
 /* -- Title --*/
 
-.img-perfil{
-    padding-top: 50px;
+.img-background{
+    background-image:url("/imagens/title_background.png");
+    background-position: center;
 }
+
+.img-perfil{
+    margin-top: 100px;
+    width: 18rem;
+    border-radius: 5%;
+}
+
+.fa-whatsapp{
+    color: rgb(32, 170, 62);
+}
+
+.big-title{
+    font-family: "Lobster";
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+.medium-title{
+    font-family: "Lobster";
+    font-size: 2.0rem;
+    font-weight: 100;
+}
+
+.personal-container{
+    font-size: 1.2rem;
+}
+
 
 /* -- Formation -- */
 
@@ -44,8 +90,13 @@ h1 {
 /* -- Skills -- */
 
 .carousel-container{
-    padding: 2% 25% 10%;
+    padding: 2% 33% 10%;
     text-align: center;
+    line-height: 2.5rem;
+}
+
+.img-skill{
+    padding-bottom: 40px;
 }
 
 /* -- Work -- */
@@ -69,7 +120,7 @@ h1 {
 /* -- Footer -- */
 
 footer{
-    margin-top: 100px;
+    padding: 100px;
 }
 
 .accordion-button:not(.collapsed){
@@ -86,10 +137,28 @@ footer{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
+.contact-links{
+    text-decoration: none;
+    padding: 0 30px;
+    color: #FFF;
+}
+
+.contact-links:hover{
+    color: #3c6fad;
+}
+
 @media (max-width: 990px) {
 
     .container-fluid{
         padding: 3% 10% 5%;
+    }
+
+    .carousel-container{
+        padding: 2% 15% 10%;
+    }
+
+    .navbar-container{
+        padding: 0 1rem 0;
     }
 
 }
