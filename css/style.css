@@ -27,6 +27,10 @@ h1 {
 
 /* -- Nav Bar -- */
 
+.navbar{
+    padding-bottom: 0;
+}
+
 .navbar-container{
     padding: 0 4rem 0;
     border-bottom: 1px solid;
@@ -39,7 +43,6 @@ h1 {
 
 .nav-logo{
     width: 5rem;
-
 }
 
 /* -- Title --*/
@@ -47,6 +50,8 @@ h1 {
 .img-background{
     background-image:url("/imagens/title_background.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-perfil{
