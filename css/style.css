@@ -132,11 +132,6 @@ h1 {
 
 /* -- Footer -- */
 
-footer{
-    padding: 100px;
-}
-
-
 .contact-links{
     text-decoration: none;
     color: #FFF;
@@ -161,4 +156,3 @@ footer{
         padding: 0 1rem 0;
     }
 }
-
