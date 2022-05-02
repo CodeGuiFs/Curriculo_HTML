@@ -47,7 +47,7 @@ h1 {
 
 /* -- Title --*/
 
-.img-background{
+#personal{
     background-image:url("/imagens/title_background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,6 @@ h1 {
 .img-perfil{
     margin-top: 100px;
     width: 18rem;
-    border-radius: 5%;
 }
 
 .fa-whatsapp{
