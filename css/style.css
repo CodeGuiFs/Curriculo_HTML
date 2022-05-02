@@ -48,7 +48,7 @@ h1 {
 /* -- Title --*/
 
 #personal{
-    background-image:url("../imagens/title_background.png");
+    background-image:url(../imagens/title_background.png);
     background-color: #112B3C;
     background-position: center;
     background-repeat: no-repeat;
